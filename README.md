@@ -11,13 +11,13 @@ This project demonstrates Infrastructure as Code (IaC) practices by using Terraf
 
 ## Project Structure
 
-- **app.py** - Simple Flask application with a single `/` route returning "Hello, World!"
-- **Dockerfile** - Docker image definition based on Python 3.9-slim
-- **main.tf** - Terraform configuration for Docker image and container resources
-- **variables.tf** - Input variables with sensible defaults
-- **outputs.tf** - Output values for container details
-- **.terraform.lock.hcl** - Terraform dependency lock file
-- **terraform.tfstate** - Terraform state file (automatically managed)
+- **`app.py`** - Simple Flask application with a single `/` route returning "Hello, World!"
+- **`Dockerfile`** - Docker image definition based on Python 3.9-slim
+- **`main.tf`** - Terraform configuration for Docker image and container resources
+- **`variables.tf`** - Input variables with sensible defaults
+- **`outputs.tf`** - Output values for container details
+- **`.terraform.lock.hcl`** - Terraform dependency lock file
+- **`terraform.tfstate`** - Terraform state file (automatically managed)
 
 ## Prerequisites
 
